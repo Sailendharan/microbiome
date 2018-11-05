@@ -37,18 +37,6 @@ Report Generation Date
 
 Mon Mar 13 14:40:17 2017
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>q2_demux : summarize</title>
-    <link rel="stylesheet" href="./q2templateassets/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="./q2templateassets/css/normalize.css"/>
-    <script src="./q2templateassets/js/child.js"></script>
-
-
   </head>
   <body>
     <div class="container-fluid">
@@ -88,7 +76,6 @@ Mon Mar 13 14:40:17 2017
       <th>Sequence count</th>
     </tr>
     <tr>
-      <th></th>
     </tr>
   </thead>
   <tbody>
