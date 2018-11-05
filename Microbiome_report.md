@@ -1,6 +1,6 @@
 ## **_Microbiome Analysis Report_**
 
-UW Biotechnology Center Bioinformatics Resource Center 
+UW Biotechnology Center Bioinformatics Resource Center
 Please direct questions to: **brc@biotech.wisc.edu**
 
 
@@ -22,7 +22,7 @@ Please direct questions to: **brc@biotech.wisc.edu**
 
  **PI Name**|**Name**
 :-----|:-----
-Project Description|Qiime Analysis
+Project Description|Qiime2 Analysis
 Sample Count|95
 Good Samples|90
 Num observations|9263
@@ -36,6 +36,297 @@ Reference Database
 Report Generation Date
 
 Mon Mar 13 14:40:17 2017
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>q2_demux : summarize</title>
+    <link rel="stylesheet" href="./q2templateassets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./q2templateassets/css/normalize.css"/>
+    <script src="./q2templateassets/js/child.js"></script>
+
+
+  </head>
+  <body>
+    <div class="container-fluid">
+
+<div class="row">
+    <div class="col-lg-12">
+        <h1>Demultiplexed sequence counts summary</h1>
+        <table class="table table-striped table-hover">
+            <tr><td>Minimum:</td><td>7</td></tr>
+            <tr><td>Median:</td><td>30631.0</td></tr>
+            <tr><td>Mean:</td><td>31744.8035714</td></tr>
+            <tr><td>Maximum:</td><td>54421</td></tr>
+            <tr><td>Total:</td><td>1777709</td></tr>
+        </table>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-lg-12 text-center">
+        <a href="demultiplex-summary.pdf">
+            <img src="demultiplex-summary.png">
+            <p>Download as PDF</p>
+        </a>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <h1>Per-sample sequence counts</h1>
+        <h4>Total Samples: 56</h4>
+        <table border="0" class="dataframe table table-striped table-hover">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Sequence count</th>
+    </tr>
+    <tr>
+      <th>Sample name</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Arl-soil-2-2-Plate1-D10</th>
+      <td>54421</td>
+    </tr>
+    <tr>
+      <th>Arl-soil-1-2-Plate1-D8</th>
+      <td>53756</td>
+    </tr>
+    <tr>
+      <th>Arl-soil-3-2-Plate1-D12</th>
+      <td>52467</td>
+    </tr>
+    <tr>
+      <th>Ant-soil-3-2-Plate1-E6</th>
+      <td>47259</td>
+    </tr>
+    <tr>
+      <th>WM-soil-1-2-Plate1-D2</th>
+      <td>45735</td>
+    </tr>
+    <tr>
+      <th>Ant-soil-3-1-Plate1-E5</th>
+      <td>43049</td>
+    </tr>
+    <tr>
+      <th>Ant-1-1-TSA-Plate1-C7</th>
+      <td>42760</td>
+    </tr>
+    <tr>
+      <th>WM-2-2-TSA-Plate1-B9</th>
+      <td>41649</td>
+    </tr>
+    <tr>
+      <th>WM-soil-2-1-Plate1-D3</th>
+      <td>40642</td>
+    </tr>
+    <tr>
+      <th>WM-soil-1-1-Plate1-D1</th>
+      <td>39677</td>
+    </tr>
+    <tr>
+      <th>WM-soil-2-2-Plate1-D4</th>
+      <td>38939</td>
+    </tr>
+    <tr>
+      <th>Ant-2-2-TSA-Plate1-C10</th>
+      <td>37570</td>
+    </tr>
+    <tr>
+      <th>Ant-soil-1-2-Plate1-E2</th>
+      <td>37201</td>
+    </tr>
+    <tr>
+      <th>Arl-soil-1-1-Plate1-D7</th>
+      <td>36472</td>
+    </tr>
+    <tr>
+      <th>Ant-soil-2-2-Plate1-E4</th>
+      <td>36453</td>
+    </tr>
+    <tr>
+      <th>Arl-soil-2-1-Plate1-D9</th>
+      <td>36410</td>
+    </tr>
+    <tr>
+      <th>Ant-2-3-PDA-Plate1-B4</th>
+      <td>35736</td>
+    </tr>
+    <tr>
+      <th>Ant-3-3-PDA-Plate1-B6</th>
+      <td>35557</td>
+    </tr>
+    <tr>
+      <th>WM-3-2-TSA-Plate1-B11</th>
+      <td>35395</td>
+    </tr>
+    <tr>
+      <th>WM-soil-3-1-Plate1-D5</th>
+      <td>35310</td>
+    </tr>
+    <tr>
+      <th>Arl-2-3-TSA-Plate1-C4</th>
+      <td>34358</td>
+    </tr>
+    <tr>
+      <th>Arl-3-1-TSA-Plate1-C5</th>
+      <td>34329</td>
+    </tr>
+    <tr>
+      <th>WM-3-3-TSA-Plate1-B12</th>
+      <td>33152</td>
+    </tr>
+    <tr>
+      <th>Arl-3-3-TSA-Plate1-C6</th>
+      <td>32898</td>
+    </tr>
+    <tr>
+      <th>Arl-1-2-TSA-Plate1-C2</th>
+      <td>32043</td>
+    </tr>
+    <tr>
+      <th>Arl-2-2-TSA-Plate1-C3</th>
+      <td>31189</td>
+    </tr>
+    <tr>
+      <th>Arl-1-1-PDA-Plate1-A7</th>
+      <td>31038</td>
+    </tr>
+    <tr>
+      <th>WM-2-3-TSA-Plate1-B10</th>
+      <td>30813</td>
+    </tr>
+    <tr>
+      <th>Ant-2-1-TSA-Plate1-C9</th>
+      <td>30449</td>
+    </tr>
+    <tr>
+      <th>Ant-1-1-PDA-Plate1-B1</th>
+      <td>30231</td>
+    </tr>
+    <tr>
+      <th>Ant-3-1-TSA-Plate1-C11</th>
+      <td>29024</td>
+    </tr>
+    <tr>
+      <th>Ant-3-1-PDA-Plate1-B5</th>
+      <td>28880</td>
+    </tr>
+    <tr>
+      <th>Arl-1-1-TSA-Plate1-C1</th>
+      <td>28630</td>
+    </tr>
+    <tr>
+      <th>Ant-3-3-TSA-Plate1-C12</th>
+      <td>28613</td>
+    </tr>
+    <tr>
+      <th>Arl-soil-3-1-Plate1-D11</th>
+      <td>28493</td>
+    </tr>
+    <tr>
+      <th>WM-soil-3-6-Plate1-D6</th>
+      <td>28426</td>
+    </tr>
+    <tr>
+      <th>Ant-1-2-TSA-Plate1-C8</th>
+      <td>27909</td>
+    </tr>
+    <tr>
+      <th>Ant-2-1-PDA-Plate1-B3</th>
+      <td>27787</td>
+    </tr>
+    <tr>
+      <th>Ant-soil-1-1-Plate1-E1</th>
+      <td>27588</td>
+    </tr>
+    <tr>
+      <th>WM-1-1-TSA-Plate1-B7</th>
+      <td>27161</td>
+    </tr>
+    <tr>
+      <th>Arl-3-2-PDA-Plate1-A11</th>
+      <td>26939</td>
+    </tr>
+    <tr>
+      <th>WM-2-3-PDA-Plate1-A4</th>
+      <td>26819</td>
+    </tr>
+    <tr>
+      <th>Ant-soil-2-1-Plate1-E3</th>
+      <td>26399</td>
+    </tr>
+    <tr>
+      <th>Arl-2-2-PDA-Plate1-A9</th>
+      <td>26161</td>
+    </tr>
+    <tr>
+      <th>Ant-1-3-PDA-Plate1-B2</th>
+      <td>25407</td>
+    </tr>
+    <tr>
+      <th>WM-3-3-PDA-Plate1-A6</th>
+      <td>25347</td>
+    </tr>
+    <tr>
+      <th>WM-3-1-PDA-Plate1-A5</th>
+      <td>24073</td>
+    </tr>
+    <tr>
+      <th>Arl-2-3-PDA-Plate1-A10</th>
+      <td>24055</td>
+    </tr>
+    <tr>
+      <th>WM-2-1-PDA-Plate1-A3</th>
+      <td>23178</td>
+    </tr>
+    <tr>
+      <th>WM-1-2-PDA-Plate1-A1</th>
+      <td>22477</td>
+    </tr>
+    <tr>
+      <th>WM-1-3-PDA-Plate1-A2</th>
+      <td>21911</td>
+    </tr>
+    <tr>
+      <th>Blank-2-Plate1-E8</th>
+      <td>20318</td>
+    </tr>
+    <tr>
+      <th>Arl-3-3-PDA-Plate1-A12</th>
+      <td>20178</td>
+    </tr>
+    <tr>
+      <th>WM-1-3-TSA-Plate1-B8</th>
+      <td>19064</td>
+    </tr>
+    <tr>
+      <th>Arl-1-3-PDA-Plate1-A8</th>
+      <td>15907</td>
+    </tr>
+    <tr>
+      <th>Blank-1-Plate1-E7</th>
+      <td>7</td>
+    </tr>
+  </tbody>
+</table>
+        <a href="per-sample-fastq-counts.csv">Download as CSV</a>
+    </div>
+</div>
+
+    </div>
+  </body>
+</html>
+
 
 * * *
 
