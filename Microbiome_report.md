@@ -84,11 +84,10 @@ Mon Mar 13 14:40:17 2017
         <table border="0" class="dataframe table table-striped table-hover">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
+      <th>Sample name</th>
       <th>Sequence count</th>
     </tr>
     <tr>
-      <th>Sample name</th>
       <th></th>
     </tr>
   </thead>
